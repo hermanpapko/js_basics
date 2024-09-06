@@ -1,13 +1,14 @@
 # js_basics
 
-## test
+## Day 1
 
-### Hello World!
+Basics
 
----
-
-czetyrie
-
----
-
-1. lesson 1
+1.  Variables
+2.  Constants
+3.  Primitive Types
+4.  Dynamic Typing
+5.  Objects
+6.  Arrays
+7.  Functions
+8.  Types of Functions
