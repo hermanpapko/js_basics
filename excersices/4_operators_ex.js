@@ -8,6 +8,9 @@ fuelcalculator(4, 5);
 //! List filtering
 // https://www.codewars.com/kata/53dbd5315a3c69eed20002dd
 
+let x = [4, "4"];
+console.log(typeof x);
+
 //! Even Odd
 // https://www.codewars.com/kata/53da3dbb4a5168369a0000fe
 
