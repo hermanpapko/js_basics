@@ -1,8 +1,9 @@
 //! Create a Fuel calculator, a function that takes litres and pricePerLitre as arguments.
 
-let amount = 4;
-let pricePerLitre = 25;
-console.log(amount * pricePerLitre);
+function fuelcalculator(amount, pricePerLitre) {
+  console.log(amount * pricePerLitre);
+}
+fuelcalculator(4, 5);
 
 //! List filtering
 // https://www.codewars.com/kata/53dbd5315a3c69eed20002dd
