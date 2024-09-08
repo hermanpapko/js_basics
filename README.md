@@ -12,3 +12,7 @@ Basics
 6.  Arrays
 7.  Functions
 8.  Types of Functions
+
+## Day 2
+
+1. Operators
