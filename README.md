@@ -16,3 +16,7 @@ Basics
 ## Day 2
 
 1. Operators
+
+## Day 3
+
+1. Control Flow
