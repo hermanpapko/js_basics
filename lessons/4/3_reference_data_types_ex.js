@@ -72,6 +72,16 @@ let planets = [
   { name: "Uranus", radius: 25559, distance: 19.213 },
   { name: "Neptune", radius: 24764, distance: 30.07 },
 ];
+let planets2 = [
+  { name: "fgh", radius: 2440, distance: 0.395 },
+  { name: "vbn", radius: 6052, distance: 0.723 },
+  { name: "vbn", radius: 6378, distance: 1 },
+  { name: "Mars", radius: 3396, distance: 1.53 },
+  { name: "Jupiter", radius: 71492, distance: 5.21 },
+  { name: "Saturn", radius: 60268, distance: 9.551 },
+  { name: "Uranus", radius: 25559, distance: 19.213 },
+  { name: "Neptune", radius: 24764, distance: 30.07 },
+];
 /*
 Create a function addSolarSystem() it should accept an object 
 and add a boolean "solar_system" key to an each planet in that array 
@@ -84,22 +94,22 @@ and print planet data in console as a table (console.table())
 /************/
 let i = 0;
 
-function addSolarSystem() {
-  while (i < 8) {
-    planets[i].solar_system = true;
+function addSolarSystem(planetList) {
+  while (i < planetList.length) {
+    planetList[i].solar_system = true;
     i++;
   }
-  return planets;
+  return planetList;
 }
-function printPlanets() {
+function printPlanets(planetList) {
   while (i < 8) {
-    planets[i];
+    planetList[i];
     i++;
   }
-  return planets;
+  return planetList;
 }
-console.log(addSolarSystem());
-console.table(printPlanets());
+console.log(addSolarSystem(planets));
+console.table(printPlanets(planets2));
 
 /************/
 let personWithNoAge = {
@@ -111,3 +121,15 @@ and print the persons age
 expected output: 'Hey, Artur! You are 40 years old'
 !*/
 /************/
+
+function yourAgeIs(person) {
+  let currentYear = new Date().getFullYear();
+  let age = currentYear - person.birth_year;
+  console.log(`Hey, ${person.name}! You are ${age} years old.`);
+  if (age > 18) {
+    console.log("You are welcome!");
+  } else {
+    console.log("Get out");
+  }
+}
+yourAgeIs(personWithNoAge);
