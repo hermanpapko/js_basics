@@ -1,1 +1,1 @@
-In this repository I lern JavaScript
+In this repository I learn JavaScript
